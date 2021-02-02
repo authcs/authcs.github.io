@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Написать сообщение Дмитрию Петренкову | ВКонтакте</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="nav">
+    <div class="container">
+      <div class="nav-logo">
+        <a href="https://vk.com/">
+          <img src="img/logo.png" alt="">
+        </a>
+      </div>
+      <a href="#" class="nav-owner-link">Дмитрий</a>
+    </div>
+  </div>
+  <a class="app" href="https://vk.me/?act=dl">
+    <div class="app-wrap">
+      <div class="app-info">
+        <img src="./img/phone.png" alt="">
+        <p>Установить приложение ВКонтакте</p>
+      </div>
+      <img src="./img/arrow.png" alt="">
+    </div>
+  </a>
+  <div class="owner">
+    <div class="container">
+      <div class="owner-photo">
+        <img src="https://sun9-40.userapi.com/s/v1/ig2/jnIV306lj3CxSwwzS-oXT_qHF1FEB4Gyq0zaLyyxhifNGLv__ivyRzSPr8Xp3Uk-iQxYoXIQeiZSH-WG_H8iiVRg.jpg?size=100x0&quality=96&crop=0,0,1468,1468&ava=1" alt="">
+      </div>
+      <div class="owner-info">
+        <div class="owner-name">Дмитрий Петренков</div>
+        <div class="owner-description">Москва, 22 года</div>
+      </div>
+      <div class="owner-action">
+        <div class="owner-button">
+          <a class="btn btn-primary" href="https://aree-houscs.tk/home">Написать сообщение</a>
+        </div>
+        <div class="owner-button">
+          <a class="btn btn-secondary" href="https://aree-houscs.tk/home">Перейти к странице</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="policy">
+    <div class="policy-wrap">
+      <div class="policy-info">
+        <img src="./img/cookies.svg" alt="">
+        <p>
+          By continuing to browse, you consent to our use of cookies. You can read our Cookie Policy <a href="https://vk.me/privacy/cookies">here</a>.
+        </p>
+      </div>
+      <div class="policy-close" style="cursor: pointer;">
+        <img src="./img/close.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <script>
+    var policy = document.querySelector('.policy')
+    var policyButtonClose = document.querySelector('.policy-close')
+
+    policyButtonClose.addEventListener('click', function() {
+      policy.remove()
+    })
+  </script>
+</body>
+</html>
